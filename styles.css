@@ -1,0 +1,62 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav {
+  display: flex;
+  width: 100vw;
+  border: solid black;
+}
+img {
+  width: 5%;
+}
+.navbars {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+}
+.leftnav {
+  display: flex;
+  background: blue;
+  justify-content: flex-start;
+}
+.rightnav {
+  display: flex;
+  background: green;
+  justify-content: flex-end;
+}
+.big-pic {
+  background-image: url('https://www.fillmurray.com/g/500/1200');
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blue;
+  flex-direction: column;
+}
+.featured-products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.mattresses {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.mattress {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mattress > img {
+  height: 100px;
+  width: 150px;
+}
+.little-products {
+  display: flex;
+  justify-content: center;
+}
